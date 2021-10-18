@@ -1,0 +1,29 @@
+
+
+--------------------------------------------
+
+Auto Sc 1.0
+
+nome tabella : "auto concessionario usato"  
+
+--------------------------------------------
+
+
+id - SMALLINT - PRIMARY_KEY - AUTO_INCREMENT
+marca - VARCHAR(12) - NOTNULL
+modello - VARCHAR(20) - NOTNULL
+targa - VARCHAR(9) - NOTNULL - UNIQUE
+motore - VARCHAR(30) - NOTNULL
+chilometri - MEDIUMINT - NOTNULL
+potenza(cavalli) - SMALLINT
+cambio - VARCHAR(15) - NOTNULL
+carburante - VARCHAR(20) - NOTNULL
+anno_di_immatricolazione - DATE - NOTNULL
+carrozzeria - VARCHAR(13)
+colore - VARCHAR(20) - NOTNULL
+numero_posti -- TINYINT
+numero_di_porte - TINYINT
+equipaggiamento - TEXT
+condizioni_veicolo - VARCHAR(255)
+prezzo - FLOAT( 9 , 2 ) - NOTNULL
+
